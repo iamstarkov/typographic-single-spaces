@@ -7,14 +7,12 @@
     "coverage": "istanbul cover _mocha -- --require babel/register",
     "precoveralls": "npm run coverage",
     "coveralls": "coveralls < coverage/lcov.info",
-    "lint": "jscs --esnext -p airbnb index.js test.js",
-    "pretest": "npm run lint",
     "test": "mocha --require babel/register",
-    "tdd": "mocha --require babel/register --watch",
+    "tdd": "npm test -- --watch",
     "precommit": "npm test",
     "transpile": "babel index.js > index.es5.js",
     "prepublish": "npm run transpile",
-    "postpublish": "rm *.es5.js"
+    "postpublish": "rm *.es5.js && git push --follow-tags"
   },
   "repository": {
     "type": "git",
@@ -36,7 +34,6 @@
     "coveralls": "^2.11.2",
     "husky": "^0.7.0",
     "istanbul": "^0.3.11",
-    "jscs": "^1.12.0",
     "mocha": "^2.2.1",
     "mocha-lcov-reporter": "0.0.2"
   }
