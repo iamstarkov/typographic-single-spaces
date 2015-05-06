@@ -28,17 +28,9 @@ singleSpaces(`foo.  Bar`); // foo. Bar
 singleSpaces(`foo,  bar`); // foo, bar
 ```
 
-
-## Real world examples
-
-Check complex usage with real world examples in [typography playground][playground].
-
-[playground]: https://github.com/matmuchrapna/typographic-playground
-
-
 ## License
 
-MIT © [Vladimir Starkov](http://vstarkov.com/)
+MIT © [Vladimir Starkov](https://iamstarkov.com/)
 
 [rtfm]: http://practicaltypography.com/one-space-between-sentences.html
 [habits]: http://practicaltypography.com/typewriter-habits.html
@@ -46,14 +38,14 @@ MIT © [Vladimir Starkov](http://vstarkov.com/)
 [npm-url]: https://npmjs.org/package/typographic-single-spaces
 [npm-image]: http://img.shields.io/npm/v/typographic-single-spaces.svg
 
-[travis-url]: https://travis-ci.org/matmuchrapna/typographic-single-spaces
-[travis-image]: http://img.shields.io/travis/matmuchrapna/typographic-single-spaces.svg
+[travis-url]: https://travis-ci.org/iamstarkov/typographic-single-spaces
+[travis-image]: http://img.shields.io/travis/iamstarkov/typographic-single-spaces.svg
 
-[coveralls-url]: https://coveralls.io/r/matmuchrapna/typographic-single-spaces
-[coveralls-image]: http://img.shields.io/coveralls/matmuchrapna/typographic-single-spaces.svg
+[coveralls-url]: https://coveralls.io/r/iamstarkov/typographic-single-spaces
+[coveralls-image]: http://img.shields.io/coveralls/iamstarkov/typographic-single-spaces.svg
 
-[depstat-url]: https://david-dm.org/matmuchrapna/typographic-single-spaces
-[depstat-image]: https://david-dm.org/matmuchrapna/typographic-single-spaces.svg
+[depstat-url]: https://david-dm.org/iamstarkov/typographic-single-spaces
+[depstat-image]: https://david-dm.org/iamstarkov/typographic-single-spaces.svg
 
-[depstat-dev-url]: https://david-dm.org/matmuchrapna/typographic-single-spaces
-[depstat-dev-image]: https://david-dm.org/matmuchrapna/typographic-single-spaces/dev-status.svg
+[depstat-dev-url]: https://david-dm.org/iamstarkov/typographic-single-spaces
+[depstat-dev-image]: https://david-dm.org/iamstarkov/typographic-single-spaces/dev-status.svg
